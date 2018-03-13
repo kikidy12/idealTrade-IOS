@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.3'
+use_frameworks!
+
+target 'idealTrade' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    pod 'lottie-ios'
+    pod 'RangeSeekSlider'
+    pod 'Alamofire', '~> 4.5'
+    pod 'GooglePlaces'
+    pod 'GooglePlacePicker'
+    pod 'GoogleMaps'
+    pod 'Firebase/Core'
+    pod 'Firebase/Messaging'
+  # Pods for idealTrade
+
+  target 'idealTradeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'idealTradeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
