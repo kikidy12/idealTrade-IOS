@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182AC90CD525DE27D362C8AA /* Pods_idealTradeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB36FCB09610AEFB8EAC998 /* Pods_idealTradeUITests.framework */; };
 		993937BB2050CC2A004E7D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937BA2050CC2A004E7D1F /* AppDelegate.swift */; };
-		993937BD2050CC2A004E7D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937BC2050CC2A004E7D1F /* ViewController.swift */; };
+		993937BD2050CC2A004E7D1F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937BC2050CC2A004E7D1F /* LoginController.swift */; };
 		993937C02050CC2A004E7D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993937BE2050CC2A004E7D1F /* Main.storyboard */; };
 		993937C22050CC2A004E7D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993937C12050CC2A004E7D1F /* Assets.xcassets */; };
 		993937C52050CC2A004E7D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993937C32050CC2A004E7D1F /* LaunchScreen.storyboard */; };
 		993937D02050CC2A004E7D1F /* idealTradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937CF2050CC2A004E7D1F /* idealTradeTests.swift */; };
 		993937DB2050CC2A004E7D1F /* idealTradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937DA2050CC2A004E7D1F /* idealTradeUITests.swift */; };
+		993937E92050CFF1004E7D1F /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 993937E82050CFF1004E7D1F /* appIcon.png */; };
+		993937EE20512372004E7D1F /* CurrentInvestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937ED20512372004E7D1F /* CurrentInvestController.swift */; };
+		993937F3205126BB004E7D1F /* LastInvestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937F2205126BB004E7D1F /* LastInvestController.swift */; };
+		993937F52051272B004E7D1F /* LastInvestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993937F42051272B004E7D1F /* LastInvestTableCell.swift */; };
+		997DFB6220563C8B0093FDF4 /* ItemDetailTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB6120563C8B0093FDF4 /* ItemDetailTabController.swift */; };
+		997DFB64205665300093FDF4 /* MyInvestTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB63205665300093FDF4 /* MyInvestTableCell.swift */; };
+		997DFB66205665AB0093FDF4 /* MyInvestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB65205665AB0093FDF4 /* MyInvestController.swift */; };
+		997DFB68205672120093FDF4 /* BoardTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB67205672120093FDF4 /* BoardTabController.swift */; };
+		997DFB6B205672950093FDF4 /* GeneralUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB6A205672950093FDF4 /* GeneralUtil.swift */; };
+		997DFB6E2057C41F0093FDF4 /* CompanyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997DFB6D2057C41F0093FDF4 /* CompanyData.swift */; };
+		9982ABF520561B9500A248C5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982ABF420561B9500A248C5 /* UserData.swift */; };
+		9982ABF720561FB000A248C5 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9982ABF620561FB000A248C5 /* ProductData.swift */; };
+		A2B08F30D606153F2C058FB2 /* Pods_idealTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E8B53C760EFD5726D58BF7 /* Pods_idealTrade.framework */; };
+		B1C2CB112BDE7D5C360CE901 /* Pods_idealTradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB0131C1C8B847B20E7CA3B /* Pods_idealTradeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03B4677C286E1B9C72E410A3 /* Pods-idealTradeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTradeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-idealTradeTests/Pods-idealTradeTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F6BDFDCDBEB6F246C2ACC3D /* Pods-idealTradeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTradeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idealTradeTests/Pods-idealTradeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		175D4AD9F34C1A2951E14743 /* Pods-idealTradeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTradeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idealTradeUITests/Pods-idealTradeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		380767F146D1FD781041967A /* Pods-idealTrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade.release.xcconfig"; sourceTree = "<group>"; };
+		5EB0131C1C8B847B20E7CA3B /* Pods_idealTradeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idealTradeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E8B53C760EFD5726D58BF7 /* Pods_idealTrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idealTrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		993937B72050CC2A004E7D1F /* idealTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idealTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993937BA2050CC2A004E7D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		993937BC2050CC2A004E7D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993937BC2050CC2A004E7D1F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		993937BF2050CC2A004E7D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		993937C12050CC2A004E7D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993937C42050CC2A004E7D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +68,22 @@
 		993937D62050CC2A004E7D1F /* idealTradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idealTradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993937DA2050CC2A004E7D1F /* idealTradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idealTradeUITests.swift; sourceTree = "<group>"; };
 		993937DC2050CC2A004E7D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993937E82050CFF1004E7D1F /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appIcon.png; path = ../../workFolder/tempImage/appIcon.png; sourceTree = "<group>"; };
+		993937ED20512372004E7D1F /* CurrentInvestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentInvestController.swift; sourceTree = "<group>"; };
+		993937F2205126BB004E7D1F /* LastInvestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastInvestController.swift; sourceTree = "<group>"; };
+		993937F42051272B004E7D1F /* LastInvestTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastInvestTableCell.swift; sourceTree = "<group>"; };
+		997DFB6120563C8B0093FDF4 /* ItemDetailTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailTabController.swift; sourceTree = "<group>"; };
+		997DFB63205665300093FDF4 /* MyInvestTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvestTableCell.swift; sourceTree = "<group>"; };
+		997DFB65205665AB0093FDF4 /* MyInvestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvestController.swift; sourceTree = "<group>"; };
+		997DFB67205672120093FDF4 /* BoardTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTabController.swift; sourceTree = "<group>"; };
+		997DFB6A205672950093FDF4 /* GeneralUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralUtil.swift; sourceTree = "<group>"; };
+		997DFB6C20578B420093FDF4 /* idealTrade_bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = idealTrade_bridgingHeader.h; sourceTree = "<group>"; };
+		997DFB6D2057C41F0093FDF4 /* CompanyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyData.swift; sourceTree = "<group>"; };
+		9982ABF420561B9500A248C5 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		9982ABF620561FB000A248C5 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		C9091FD94F2B53A6A0340DA6 /* Pods-idealTradeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTradeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-idealTradeUITests/Pods-idealTradeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCB36FCB09610AEFB8EAC998 /* Pods_idealTradeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idealTradeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61647B91710AA855D77A518 /* Pods-idealTrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idealTrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B08F30D606153F2C058FB2 /* Pods_idealTrade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C2CB112BDE7D5C360CE901 /* Pods_idealTradeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +107,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182AC90CD525DE27D362C8AA /* Pods_idealTradeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		684738576027AB4E02E440CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64E8B53C760EFD5726D58BF7 /* Pods_idealTrade.framework */,
+				5EB0131C1C8B847B20E7CA3B /* Pods_idealTradeTests.framework */,
+				DCB36FCB09610AEFB8EAC998 /* Pods_idealTradeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9657075BD9EB86D6E48B7477 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F61647B91710AA855D77A518 /* Pods-idealTrade.debug.xcconfig */,
+				380767F146D1FD781041967A /* Pods-idealTrade.release.xcconfig */,
+				0F6BDFDCDBEB6F246C2ACC3D /* Pods-idealTradeTests.debug.xcconfig */,
+				03B4677C286E1B9C72E410A3 /* Pods-idealTradeTests.release.xcconfig */,
+				175D4AD9F34C1A2951E14743 /* Pods-idealTradeUITests.debug.xcconfig */,
+				C9091FD94F2B53A6A0340DA6 /* Pods-idealTradeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		993937AE2050CC2A004E7D1F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +144,8 @@
 				993937CE2050CC2A004E7D1F /* idealTradeTests */,
 				993937D92050CC2A004E7D1F /* idealTradeUITests */,
 				993937B82050CC2A004E7D1F /* Products */,
+				9657075BD9EB86D6E48B7477 /* Pods */,
+				684738576027AB4E02E440CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +162,17 @@
 		993937B92050CC2A004E7D1F /* idealTrade */ = {
 			isa = PBXGroup;
 			children = (
+				997DFB692056726E0093FDF4 /* Utils */,
+				9982ABF320561B6000A248C5 /* DataClass */,
+				993937EF20512613004E7D1F /* TableViewCell */,
+				993937EC2051232F004E7D1F /* Controllers */,
 				993937BA2050CC2A004E7D1F /* AppDelegate.swift */,
-				993937BC2050CC2A004E7D1F /* ViewController.swift */,
 				993937BE2050CC2A004E7D1F /* Main.storyboard */,
+				993937E82050CFF1004E7D1F /* appIcon.png */,
 				993937C12050CC2A004E7D1F /* Assets.xcassets */,
 				993937C32050CC2A004E7D1F /* LaunchScreen.storyboard */,
 				993937C62050CC2A004E7D1F /* Info.plist */,
+				997DFB6C20578B420093FDF4 /* idealTrade_bridgingHeader.h */,
 			);
 			path = idealTrade;
 			sourceTree = "<group>";
@@ -125,6 +195,46 @@
 			path = idealTradeUITests;
 			sourceTree = "<group>";
 		};
+		993937EC2051232F004E7D1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				993937BC2050CC2A004E7D1F /* LoginController.swift */,
+				993937ED20512372004E7D1F /* CurrentInvestController.swift */,
+				993937F2205126BB004E7D1F /* LastInvestController.swift */,
+				997DFB6120563C8B0093FDF4 /* ItemDetailTabController.swift */,
+				997DFB65205665AB0093FDF4 /* MyInvestController.swift */,
+				997DFB67205672120093FDF4 /* BoardTabController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		993937EF20512613004E7D1F /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				993937F42051272B004E7D1F /* LastInvestTableCell.swift */,
+				997DFB63205665300093FDF4 /* MyInvestTableCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		997DFB692056726E0093FDF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				997DFB6A205672950093FDF4 /* GeneralUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9982ABF320561B6000A248C5 /* DataClass */ = {
+			isa = PBXGroup;
+			children = (
+				9982ABF420561B9500A248C5 /* UserData.swift */,
+				9982ABF620561FB000A248C5 /* ProductData.swift */,
+				997DFB6D2057C41F0093FDF4 /* CompanyData.swift */,
+			);
+			path = DataClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993937DF2050CC2A004E7D1F /* Build configuration list for PBXNativeTarget "idealTrade" */;
 			buildPhases = (
+				A74B91A56DDE6DAEDC3FC1B0 /* [CP] Check Pods Manifest.lock */,
 				993937B32050CC2A004E7D1F /* Sources */,
 				993937B42050CC2A004E7D1F /* Frameworks */,
 				993937B52050CC2A004E7D1F /* Resources */,
+				B3A1D6889E938596AA10ED3B /* [CP] Embed Pods Frameworks */,
+				3EE0309A0B317EBF7F2349D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993937E22050CC2A004E7D1F /* Build configuration list for PBXNativeTarget "idealTradeTests" */;
 			buildPhases = (
+				85B15150E96325510B926DD9 /* [CP] Check Pods Manifest.lock */,
 				993937C72050CC2A004E7D1F /* Sources */,
 				993937C82050CC2A004E7D1F /* Frameworks */,
 				993937C92050CC2A004E7D1F /* Resources */,
+				8E504EB479D8B7A6A8EBA770 /* [CP] Embed Pods Frameworks */,
+				89656B4592F90538B72E7AA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993937E52050CC2A004E7D1F /* Build configuration list for PBXNativeTarget "idealTradeUITests" */;
 			buildPhases = (
+				A99F78C54A458CF7A0C151C6 /* [CP] Check Pods Manifest.lock */,
 				993937D22050CC2A004E7D1F /* Sources */,
 				993937D32050CC2A004E7D1F /* Frameworks */,
 				993937D42050CC2A004E7D1F /* Resources */,
+				4361846FA9967D18B63BC3E1 /* [CP] Embed Pods Frameworks */,
+				EF1B4235E8ABE36FDFDF8B32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993937E92050CFF1004E7D1F /* appIcon.png in Resources */,
 				993937C52050CC2A004E7D1F /* LaunchScreen.storyboard in Resources */,
 				993937C22050CC2A004E7D1F /* Assets.xcassets in Resources */,
 				993937C02050CC2A004E7D1F /* Main.storyboard in Resources */,
@@ -254,12 +374,190 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EE0309A0B317EBF7F2349D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4361846FA9967D18B63BC3E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTradeUITests/Pods-idealTradeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B15150E96325510B926DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idealTradeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89656B4592F90538B72E7AA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTradeTests/Pods-idealTradeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E504EB479D8B7A6A8EBA770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTradeTests/Pods-idealTradeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A74B91A56DDE6DAEDC3FC1B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idealTrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99F78C54A458CF7A0C151C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idealTradeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A1D6889E938596AA10ED3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RangeSeekSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTrade/Pods-idealTrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1B4235E8ABE36FDFDF8B32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-idealTradeUITests/Pods-idealTradeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		993937B32050CC2A004E7D1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993937BD2050CC2A004E7D1F /* ViewController.swift in Sources */,
+				9982ABF520561B9500A248C5 /* UserData.swift in Sources */,
+				997DFB64205665300093FDF4 /* MyInvestTableCell.swift in Sources */,
+				9982ABF720561FB000A248C5 /* ProductData.swift in Sources */,
+				993937BD2050CC2A004E7D1F /* LoginController.swift in Sources */,
+				997DFB6E2057C41F0093FDF4 /* CompanyData.swift in Sources */,
+				993937F52051272B004E7D1F /* LastInvestTableCell.swift in Sources */,
+				993937EE20512372004E7D1F /* CurrentInvestController.swift in Sources */,
+				997DFB68205672120093FDF4 /* BoardTabController.swift in Sources */,
+				997DFB66205665AB0093FDF4 /* MyInvestController.swift in Sources */,
+				997DFB6B205672950093FDF4 /* GeneralUtil.swift in Sources */,
+				997DFB6220563C8B0093FDF4 /* ItemDetailTabController.swift in Sources */,
+				993937F3205126BB004E7D1F /* LastInvestController.swift in Sources */,
 				993937BB2050CC2A004E7D1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,13 +722,16 @@
 		};
 		993937E02050CC2A004E7D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61647B91710AA855D77A518 /* Pods-idealTrade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = idealTrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.idealTrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = idealTrade/idealTrade_bridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +739,16 @@
 		};
 		993937E12050CC2A004E7D1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 380767F146D1FD781041967A /* Pods-idealTrade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = idealTrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.idealTrade;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = idealTrade/idealTrade_bridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +756,7 @@
 		};
 		993937E32050CC2A004E7D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6BDFDCDBEB6F246C2ACC3D /* Pods-idealTradeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +773,7 @@
 		};
 		993937E42050CC2A004E7D1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B4677C286E1B9C72E410A3 /* Pods-idealTradeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +790,7 @@
 		};
 		993937E62050CC2A004E7D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175D4AD9F34C1A2951E14743 /* Pods-idealTradeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +806,7 @@
 		};
 		993937E72050CC2A004E7D1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9091FD94F2B53A6A0340DA6 /* Pods-idealTradeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
