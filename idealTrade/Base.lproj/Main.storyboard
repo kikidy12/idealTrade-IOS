@@ -90,10 +90,12 @@
                             <constraint firstItem="eU4-Dp-FbI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="PDB-RP-nB3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eU4-Dp-FbI" secondAttribute="trailing" constant="40" id="RoQ-Fq-vTO"/>
                             <constraint firstItem="cHs-N7-3jc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="bk2-Oj-L9m"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gru-Kd-zJk" secondAttribute="trailing" constant="20" symbolic="YES" id="bol-TV-ZfR"/>
                             <constraint firstItem="KOm-qv-on8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="dSO-Hj-rop"/>
                             <constraint firstItem="tPP-5C-sEo" firstAttribute="top" secondItem="HoH-jz-tr0" secondAttribute="bottom" constant="40" id="eJo-Ba-4yh"/>
                             <constraint firstItem="HoH-jz-tr0" firstAttribute="top" secondItem="gru-Kd-zJk" secondAttribute="bottom" constant="10" id="gaZ-U6-P09"/>
                             <constraint firstItem="gru-Kd-zJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="jbx-Qn-K3j"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KOm-qv-on8" secondAttribute="trailing" constant="20" symbolic="YES" id="r4l-kA-jcE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5aS-D1-e0s" secondAttribute="trailing" constant="41" id="ruk-zu-xw8"/>
                             <constraint firstItem="gru-Kd-zJk" firstAttribute="top" secondItem="5aS-D1-e0s" secondAttribute="bottom" constant="20" id="tzU-5u-D4S"/>
                             <constraint firstItem="5aS-D1-e0s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="ufO-6w-DWt"/>
@@ -240,7 +242,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="270"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ESo-OT-b49" id="sHJ-h9-ksn">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="269.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="appIcon" translatesAutoresizingMaskIntoConstraints="NO" id="oit-0y-AmY">
@@ -811,7 +813,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="270"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Ml-HC-0iS" id="ehY-2R-x98">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="269.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t2f-ZO-f5N">
